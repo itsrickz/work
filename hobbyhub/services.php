@@ -89,6 +89,18 @@
 <h5>Photography</h5>
 
 </div></div>
+<div class="col-lg-3 ser  "  style="background-color:white">
+              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesphotography.php"><i class="fas fa-smile"></i></a>
+
+<h5>Make up artist</h5>
+
+</div></div>
+<div class="col-lg-3 ser  "  style="background-color:white">
+              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesphotography.php"><i class="fas fa-gifts"></i></a>
+
+<h5>gift makers</h5>
+
+</div></div>
           </div>
       </div>
 

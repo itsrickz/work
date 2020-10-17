@@ -32,225 +32,29 @@
       <h3 >Services related to Bakery</h3>
       <div class="cont">
           <div class="row">
-              <div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="serviceslist.php?category=bakery&subcategory=cake"><i class="fas fa-palette"></i></a><h5>Cake</h5>
+              <div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="serviceslist.php?category=bakery&subcategory=cake"><i class="fas fa-birthday-cake"></i></a><h5>Cakes</h5>
 
 </div></div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fab fa-firstdraft"></i></a>
+              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="serviceslist.php?category=bakery&subcategory=cookies"><i class="fas fa-cookie-bite"></i></a>
 
-<h5>Craft</h5>
+<h5>Cookies</h5>
 
 </div>
             </div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-utensils"></i></a>
+              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="serviceslist.php?category=bakery&subcategory=donuts"><i class="fas fa-circle"></i></a>
 
-<h5>Food</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-birthday-cake"></i></a>
-
-<h5>Bakery</h5>
+<h5>Donuts</h5>
 
 </div></div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-tshirt"></i></a>
+              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="serviceslist.php?category=bakery&subcategory=pies cupcakes"><i class="fas fa-chart-pie"></i></a>
 
-
-
-<h5>Fashion</h5>
+<h5>Pie & cupcakes</h5>
 
 </div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-camera-retro"></i></a>
-
-<h5>Photography</h5>
-
-</div></div>
-<div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-palette"></a></i><h5>Art</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fab fa-firstdraft"></i></a>
-
-<h5>Craft</h5>
-
-</div>
-            </div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-utensils"></i></a>
-
-<h5>Food</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-birthday-cake"></i></a>
-
-<h5>Bakery</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-tshirt"></i></a>
-
-
-
-<h5>Fashion</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-camera-retro"></i></a>
-
-<h5>Photography</h5>
-
-</div></div>
-<div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-palette"></a></i><h5>Art</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fab fa-firstdraft"></i></a>
-
-<h5>Craft</h5>
-
-</div>
-            </div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-utensils"></i></a>
-
-<h5>Food</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-birthday-cake"></i></a>
-
-<h5>Bakery</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-tshirt"></i></a>
-
-
-
-<h5>Fashion</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-camera-retro"></i></a>
-
-<h5>Photography</h5>
-
-</div></div>
-<div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-palette"></a></i><h5>Art</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fab fa-firstdraft"></i></a>
-
-<h5>Craft</h5>
-
-</div>
-            </div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-utensils"></i></a>
-
-<h5>Food</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-birthday-cake"></i></a>
-
-<h5>Bakery</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-tshirt"></i></a>
-
-
-
-<h5>Fashion</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-camera-retro"></i></a>
-
-<h5>Photography</h5>
-
-</div></div>
-<div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-palette"></a></i><h5>Art</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fab fa-firstdraft"></i></a>
-
-<h5>Craft</h5>
-
-</div>
-            </div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-utensils"></i></a>
-
-<h5>Food</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-birthday-cake"></i></a>
-
-<h5>Bakery</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-tshirt"></i></a>
-
-
-
-<h5>Fashion</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-camera-retro"></i></a>
-
-<h5>Photography</h5>
-
-</div></div>
-<div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-palette"></a></i><h5>Art</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fab fa-firstdraft"></i></a>
-
-<h5>Craft</h5>
-
-</div>
-            </div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-utensils"></i></a>
-
-<h5>Food</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-birthday-cake"></i></a>
-
-<h5>Bakery</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-tshirt"></i></a>
-
-
-
-<h5>Fashion</h5>
-
-</div></div>
-              <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href=""><i class="fas fa-camera-retro"></i></a>
-
-<h5>Photography</h5>
-
-</div></div>
-          </div>
-      </div>
-
+             
 
 
     </body>
