@@ -135,12 +135,31 @@ mysqli_close($conn);?>
                 </div>
                 <div class="form-group">
                   <label for="servicecategory">Category</label>
-                  <input type="text" class="form-control" id="servicecategory" aria-describedby="e" placeholder="" name="category">
+                  <select id="category" name="category" class="form-control mb-2">
+                        <option value="any">Category</option>
+                        <option value="art">Art</option>
+                        <option value="crafts">Crafts</option>
+                        <option value="bakery">Bakery</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="photography">Photography</option>
+                        <option value="make_up_artist">Make Up Artist</option>
+                        <option value="gift_makers">Gift Makers</option>
+                      </select>
         
                 </div>
                 <div class="form-group">
                   <label for="servicesubcategory">Subcategory</label>
-                  <input type="text" class="form-control" id="servicesubcategory" aria-describedby="e" placeholder="" name="subcategory">
+                  <select id="subcategory" name="subcategory" class="form-control mb-2">
+                    <option value="any">sub-Category</option>
+                        <option value="art">Art</option>
+                        <option value="crafts">Crafts</option>
+                        <option value="bakery">Bakery</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="photography">Photography</option>
+                        <option value="make_up_artist">Make Up Artist</option>
+                        <option value="gift_makers">Gift Makers</option>
+                        
+                      </select>
         
                 </div>
                 
@@ -151,11 +170,16 @@ mysqli_close($conn);?>
                 </div>
                 <div class="form-group">
                   <label for="servicelocation">Location</label>
-                  <input type="text" class="form-control" id="servicecost" placeholder="Specify a location if your service is location specific" name="location">
+                  <select id="location" name="location" class="form-control mb-2">
+                        <option value="any">Location</option>
+                        <option value="any">PAN India</option>
+                        <option value="Guwahati">Guwahati</option>
+                        
+                      </select>
                 </div>
                 <div class="form-group">
                   <label for="servicecost">Charge(in Rs.)</label>
-                  <input type="text" class="form-control" id="servicecost" placeholder="" name="cost">
+                  <input type="number" class="form-control" id="servicecost" placeholder="" name="cost">
                 </div>
                 <button type="submit" class="btn btn-info">Create</button>
               </form>
@@ -163,6 +187,36 @@ mysqli_close($conn);?>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+  <script>
+  $(document).ready(function () {
+    $("#category").change(function () {
+        var val = $(this).val();
+        if (val == "art") {
+            $("#subcategory").html("<option value='illustration'>illustration</option><option value='portraitart'>Portrait art</option><option value='caricature'>Caricacature</option><option value='mandala'>Mandala</option><option value='line-art'>Line art</option><option value='sketching'>sketching</option><option value='calligraphy'>Calligraphy</option><option value='painting'>painting</option><option value='mix-media'>mix media</option><option value='ethnic art'>Ethnic art</option><option value='contemporary art'>contemporary art</option><option value='doodle'>Doodle</option><option value='grafitti'>Grafitti</option><option value=''>any</option>");
+        } else if (val == "crafts") {
+            $("#subcategory").html("<option value='print making'>Print making</option><option value='ceramic art'>Ceramic art</option><option value='home decoration'>Home decoration</option><option value='macrame'>macrame</option><option value='pottery'>Pottery</option><option value='bambooandcrane'>Bamboo and Crane</option><option value=''>any</option>");
+        } else if (val == "foodservices") {
+            $("#subcategory").html("<option value='indian'>indian</option><option value='chinese'>chinese</option><option value='southindian'>south indian</option><option value='continental'>continental</option><option value='italian'>italian</option><option value='icecream'>ice cream</option><option value='sweets'>sweets</option><option value=''>any</option>");
+        } else if (val == "bakery") {
+            $("#subcategory").html("<option value='cakes'>cakes</option><option value='cookies'>cookies</option><option value='dougnut'>Dougnut</option><option value='pies-cupcakes'>pies cupcakes</option><option value=''>any</option>");
+        }
+        else if (val == "fashion") {
+            $("#subcategory").html("<option value='clothing'>clothing</option><option value='accessories'>accessories</option><option value=''>any</option>");
+        }
+        else if (val == "photography") {
+            $("#subcategory").html("<option value='photo editing'>Photo editing</option><option value='videography'>videography</option><option value='video editing'>Video editing</option><option value='photography'>photography</option><option value=''>any</option>");
+        }
+        else if (val == "make_up_artist" || val=="gift_makers") {
+            $("#subcategory").html("<option value=''></option>");
+        }
+    });
+});</script>
 
 </body>
 </html>
