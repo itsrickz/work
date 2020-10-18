@@ -28,7 +28,7 @@
 <body>
     <?php include('header.php');?>
 
-    <h1 class="text-center mt-5"><a href="http://hobbyhub.co.in/about-us/">About Us</a></h1>
+    <h1 class="text-center mt-5"><a href="">About Us</a></h1>
 
     <div class="jumbotron container">
     

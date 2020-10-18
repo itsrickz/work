@@ -28,7 +28,7 @@
 <body>
     <?php include('header.php');?>
 
-    <h1 class="text-center mt-5"><a href="http://hobbyhub.co.in/about-us/">Contact Us</a></h1>
+    <h1 class="text-center mt-5"><a href="">Contact Us</a></h1>
 
 <div style="background-color:#d6d6d6" class="jumbotron container"><form>
 
