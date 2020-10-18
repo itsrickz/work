@@ -56,10 +56,10 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Privacy Policy</a>
+            <a href="privacy.php">Privacy Policy</a>
           </li>
           <li>
-            <a href="#!">Terms and Condition</a>
+            <a href="termsCond.php">Terms and Condition</a>
           </li>
         </ul>
 
