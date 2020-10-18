@@ -231,7 +231,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
 
 <button style="float:right; margin: 20px;" class="btn btn-info">View all</button>
 
-</div>
+</div
 <!-- pending -->
 <div class="container pending">
 

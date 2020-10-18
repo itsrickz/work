@@ -42,7 +42,7 @@ else {
                   <div class="col-auto">
                       <select id="location" name="location" class="form-control mb-2">
                         <option value="any">Location</option>
-                        <option value="any">any</option>
+                        <option value="any">PAN India</option>
                         <option value="Guwahati">Guwahati</option>
                         
                       </select>
@@ -61,6 +61,14 @@ else {
                     </div>
                   <div class="col-auto">
                     <select id="subcategory" name="subcategory" class="form-control mb-2">
+                    <option value="any">sub-Category</option>
+                        <option value="art">Art</option>
+                        <option value="crafts">Crafts</option>
+                        <option value="bakery">Bakery</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="photography">Photography</option>
+                        <option value="make_up_artist">Make Up Artist</option>
+                        <option value="gift_makers">Gift Makers</option>
                         
                       </select>
                   </div>
