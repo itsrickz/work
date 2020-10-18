@@ -160,7 +160,113 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
     
       
 <?php }elseif (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['usertype']==1) { 
-    echo "You are a customer";?>   
+    ?>   <!DOCTYPE html>
+    <html lang="en">
+     <head>
+      <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>HobbyHub</title>
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link
+        rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">    
+       <link rel="stylesheet" href="homestyle.css">
+       <link rel="stylesheet" href="static/fdashstyle.css">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+      </head>
+    <body>
+      <?php include("header.php");?>
+      <div class="container">
+    <table>
+
+        <td>
+            <h4 style="margin-top: 2vw;">Hi Customer <b></b></h4>
+            <div ><img class="profile-img"src="https://static1.squarespace.com/static/5283d33fe4b065af7e0f0f97/528ac1abe4b000f9c70bd010/5461c80ee4b0efbe94330465/1482514728236/YvesBehar-20141010-051.JPG?format=1500w" alt=""></div>
+        </td>
+        <td>
+           
+        </td>
+
+
+    </table>
+      
+      <div class="container">
+<div class="row mt-2">
+<div class="col-lg-2">
+<button id="work" class="btn btn-block btn-outline-warning">Present orders <span class="badge badge-danger">4</span></button>
+
+</div> 
+
+<div class="col-lg-2">
+  <button id="pend" class="btn btn-block btn-outline-warning">Order History<span class="badge badge-danger">4</span></button>
+  
+  </div>
+
+  
+</div>
+
+
+<div class="container order">
+<div class="row">
+  <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
+  <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Accept</button> <button class="btn btn-warning">Decline</button></div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
+  <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Accept</button> <button class="btn btn-warning">Decline</button></div>
+</div>
+
+<button style="float:right; margin: 20px;" class="btn btn-info">View all</button>
+
+</div>
+<!-- pending -->
+<div class="container pending">
+
+  <div class="row">
+    <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
+    <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Mark as done</button> </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
+    <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Mark as Done</button> </div>
+  </div>
+  
+  <button style="float:right; margin: 20px;" class="btn btn-info">View all</button>
+
+
+</div>
+<!-- completed -->
+
+<script>
+
+  $("#work").click(function(){
+    $(".order").css("display","block")
+    $(".comp,.pending,.capsule2,.capsule3,.capsule1").css("display","none")
+  })
+  $("#pend").click(function(){
+    $(".pending").css("display","block")
+    $(".comp,.order,.capsule2,.capsule3,.capsule1").css("display","none")
+  })
+  
+
+
+</script>
+
+
+</body>
+</html>
+<
 <?php }elseif (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['usertype']==2) { 
     ?>  <html lang="en">
     <head>
@@ -190,17 +296,17 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
 <div class="container">
 <div class="row mt-2">
 <div class="col-lg-2">
-<button id="work" class="btn btn-block btn-outline-warning">New order <span class="badge badge-danger">4</span></button>
+<button id="work" class="btn btn-block btn-outline-warning">New Orders <span class="badge badge-danger">4</span></button>
 
 </div> 
 
 <div class="col-lg-2">
-  <button id="pend" class="btn btn-block btn-outline-warning">Pending order<span class="badge badge-danger">4</span></button>
+  <button id="pend" class="btn btn-block btn-outline-warning">Pending Orders<span class="badge badge-danger">4</span></button>
   
   </div>
 
   <div class="col-lg-2">
-    <button id="done" class="btn btn-block btn-outline-warning">completed</button>
+    <button id="done" class="btn btn-block btn-outline-warning">Completed Orders</button>
     
     </div>
     <div class="col-lg-2">
@@ -208,11 +314,11 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
         
         </div>
         <div class="col-lg-2">
-            <button id="tab2" class="btn btn-block btn-outline-warning">button2</button>
+            <button id="tab2" class="btn btn-block btn-outline-warning">All freelancers</button>
             
             </div>
             <div class="col-lg-2">
-                <button id="tab3" class="btn btn-block btn-outline-warning">button3</button>
+                <button id="tab3" class="btn btn-block btn-outline-warning">Transaction History</button>
                 
                 </div>
 </div>
@@ -267,10 +373,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
 </div>
 <!-- tb1 -->
 <?php 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "hobbyhub";
+include("connection.php");
 $tbl2="services";
 $notcomplete=0;
 // Create connection

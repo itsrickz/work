@@ -44,7 +44,29 @@ else{
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-<?php include('header.php');?>
+<?php include('header.php');
+function substrwords($text, $maxchar, $end='...') {
+  if (strlen($text) > $maxchar || $text == '') {
+      $words = preg_split('/\s/', $text);      
+      $output = '';
+      $i      = 0;
+      while (1) {
+          $length = strlen($output)+strlen($words[$i]);
+          if ($length > $maxchar) {
+              break;
+          } 
+          else {
+              $output .= " " . $words[$i];
+              ++$i;
+          }
+      }
+      $output .= $end;
+  } 
+  else {
+      $output = $text;
+  }
+  return $output;
+}?>
 <h1 style="margin: 2rem;">Services related to <?php echo $subcategory;?></h1>
     <div class="jumbotron">
         <div class="row row-cols-1 row-cols-md-4">
@@ -73,7 +95,7 @@ while($row=mysqli_fetch_array($result)){?>
                 <div class="card-body">
                   <h5 class="card-title"><?php echo $row['title'];?></h5>
                   <small>By Someone</small>
-                  <p class="card-text">fkfhajhf l,klahnfk mhfkja ajlfljaf klajflajf ,anfkahnf </p>
+                  <p class="card-text"> <?php echo substrwords($row['description'],50);?></p>
                   <a style="float: right;" href="serviceorder.php?id=<?php echo $row['id'];?>" class="btn btn-primary">View</a>
                   <a style="" href="#" class="btn btn-warning">Rs.<?php echo $row['cost'];?></a>
                 </div>

@@ -128,25 +128,18 @@
         <div class="modal-body">
         <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['usertype']==1) {?>
 
-           <form>
+           <form method="POST" action="ordercreate.php">
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  <label for="instruction">Intructions to the service provider</label><br>
+                  <textarea name="instruction" id="instruction" style="width:100%;height:300px;"></textarea>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                
              
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button  type="submit"  class="btn btn-primary">Proceed to pay</button>
                   </div>
-                </div>
-                </div>
+                
               </form>
         <?php } else {?>
           You need to login to order a service
