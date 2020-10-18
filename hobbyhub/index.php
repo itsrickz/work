@@ -200,12 +200,9 @@ else {
 
   <!-- footer -->
   
-  <div class="footer_content" >
-
-   
-  </div>
   
-
+  
+</div>
 <script>
   $("#first-choice").change(function() {
 

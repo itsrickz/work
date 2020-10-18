@@ -1,3 +1,4 @@
+
 <div class="page-footer font-small stylish-color-dark pt-4" style="background-color:#30595F;
   color: white;width:100%;">
 
@@ -110,4 +111,3 @@
   </div>
   <!-- Copyright -->
 
-</div>
