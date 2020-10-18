@@ -56,10 +56,10 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Privacy Policy</a>
+            <a href="privacy.php">Privacy Policy</a>
           </li>
           <li>
-            <a href="#!">Terms and Condition</a>
+            <a href="termsCond.php">Terms and Condition</a>
           </li>
         </ul>
 
@@ -76,15 +76,15 @@
   <!-- Call to action -->
   <ul class="list-unstyled list-inline text-center py-2">
     <li class="list-inline-item">
-      <h5 class="mb-1">Register for free</h5>
+      
     </li>
     <li class="list-inline-item">
-      <a href="#!" class="btn btn-warning btn-rounded">Sign up!</a>
+      
     </li>
   </ul>
   <!-- Call to action -->
 
-  <hr>
+  
 
   <!-- Social buttons -->
   <ul class="list-unstyled list-inline text-center">

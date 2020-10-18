@@ -320,7 +320,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
             <div class="col-lg-2">
                 <button id="tab3" class="btn btn-block btn-outline-warning">Transaction History</button>
                 
-                </div>
+            </div>
 </div>
 </div>
 

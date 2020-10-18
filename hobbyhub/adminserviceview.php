@@ -5,10 +5,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
     ?>
     <?php 
    
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "hobbyhub";
+    include("connection.php");
     $tbl2="services";
     $serviceid=$_GET['id'];
     // Create connection
