@@ -1,12 +1,9 @@
 <?php
 
-$host="localhost"; 
-$username="root";
-$password=""; 
-$db_name="hobbyhub"; 
+include("connection.php");
 
 
-$connect=mysqli_connect("$host", "$username", "$password")or die("cannot connect"); 
-mysqli_select_db($connect,"$db_name")or die("cannot select DB");
+$connect=mysqli_connect("$servername", "$username", "$password")or die("cannot connect"); 
+mysqli_select_db($connect,"$dbname")or die("cannot select DB");
 
 ?>
