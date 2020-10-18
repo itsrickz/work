@@ -28,14 +28,10 @@
 <body>
     <?php include('header.php');?>
 
-    <h1 class="text-center mt-5"><a href="http://hobbyhub.co.in/about-us/">About Us</a></h1>
+    <h1 class="text-center mt-5"><a href="http://hobbyhub.co.in/about-us/">Contact Us</a></h1>
 
-<div class="jumbotron"><form>
-<div class="form-group">
-    <label for="exampleInputEmail1">Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter Name">
+<div style="background-color:#d6d6d6" class="jumbotron container"><form>
 
-  </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">

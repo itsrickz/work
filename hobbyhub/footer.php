@@ -28,13 +28,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">About us</a>
+            <a href="aboutus.php">About us</a>
           </li>
           <li>
-            <a href="#!">How it works</a>
+            <a href="how-it-works.php">How it works</a>
           </li>
           <li>
-            <a href="#!">Contact us</a>
+            <a href="contactus.php">Contact us</a>
           </li>
          
         </ul>
