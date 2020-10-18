@@ -1,3 +1,5 @@
+</div>
+
 <div class="page-footer font-small stylish-color-dark pt-4" style="background-color:#30595F;
   color: white;width:100%;">
 
@@ -107,7 +109,7 @@
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="">Hobby Hub</a>
-  </div>
+  
   <!-- Copyright -->
 
 </div>

@@ -200,10 +200,7 @@ else {
 
   <!-- footer -->
   
-  <div class="footer_content" >
-
-   
-  </div>
+  
   
 
 <script>
