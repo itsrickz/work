@@ -212,6 +212,38 @@ else {
   
 </div>
 <script>
+// dropdown
+
+$(document).ready(function () {
+    $("#category").change(function () {
+        var val = $(this).val();
+        if (val == "art") {
+            $("#subcategory").html("<option value='illustration'>illustration</option><option value='portraitart'>Portrait art</option><option value='caricature'>Caricacature</option><option value='mandala'>Mandala</option><option value='line-art'>Line art</option><option value='sketching'>sketching</option><option value='calligraphy'>Calligraphy</option><option value='painting'>painting</option><option value='mix-media'>mix media</option><option value='ethnic art'>Ethnic art</option><option value='contemporary art'>contemporary art</option><option value='doodle'>Doodle</option><option value='grafitti'>Grafitti</option>");
+        } else if (val == "crafts") {
+            $("#subcategory").html("<option value='print making'>Print making</option><option value='ceramic art'>Ceramic art</option><option value='home decoration'>Home decoration</option><option value='macrame'>macrame</option><option value='pottery'>Pottery</option><option value='bambooandcrane'>Bamboo and Crane</option>");
+        } else if (val == "foodservices") {
+            $("#subcategory").html("<option value='indian'>indian</option><option value='chinese'>chinese</option><option value='southindian'>south indian</option><option value='continental'>continental</option><option value='italian'>italian</option><option value='icecream'>ice cream</option><option value='sweets'>sweets</option>");
+        } else if (val == "bakery") {
+            $("#subcategory").html("<option value='cakes'>cakes</option><option value='cookies'>cookies</option><option value='dougnut'>Dougnut</option><option value='pies-cupcakes'>pies cupcakes</option>");
+        }
+        else if (val == "fashion") {
+            $("#subcategory").html("<option value='clothing'>clothing</option><option value='accessories'>accessories</option>");
+        }
+        else if (val == "photography") {
+            $("#subcategory").html("<option value='photo editing'>Photo editing</option><option value='videography'>videography</option><option value='video editing'>Video editing</option><option value='photography'>photography</option>");
+        }
+        else if (val == "make_up_artist" || val=="gift_makers") {
+            $("#subcategory").html("<option value=''></option>");
+        }
+    });
+});
+
+
+
+// end
+
+
+
   $("#first-choice").change(function() {
 
 var $dropdown = $(this);
