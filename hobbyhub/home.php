@@ -31,11 +31,15 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
       <body>
          <?php include("header.php") ?>
          <?php 
-         $tbl2="freelancers";
-         $tbl3="services";
+         include("connection.php");
+         $neworder=0;
+         $pendingorder=1;
+         $freelancercompleted=2;
+         $customercompleted=3;
+         $declinedorder=4;
          $email=$_SESSION['email'];
-         $con=mysqli_connect("localhost","root","","hobbyhub");
-         $sql="SELECT * FROM $tbl2 WHERE email='$email'";
+         $con=mysqli_connect("$servername","$username","$password","$dbname");
+         $sql="SELECT * FROM $tbl3 WHERE email='$email'";
          $result=mysqli_query($con,$sql);
          
          $row=mysqli_fetch_array($result);
@@ -47,8 +51,17 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
          $_SESSION['profilepic']=$row['profileic'];
          $_SESSION['address']=$row['address'];
 
+         $query3 = "SELECT * FROM $tbl5 WHERE freelanceremail LIKE '%{$email}' and status LIKE '%{$neworder}'";
+         $result3=mysqli_query($con,$query3);
+         $query4 = "SELECT * FROM $tbl5 WHERE freelanceremail LIKE '%{$email}' and status LIKE '%{$pendingorder}'";
+         $result4=mysqli_query($con,$query4);
+         $query5 = "SELECT * FROM $tbl5 WHERE freelanceremail LIKE '%{$email}' and status LIKE '%{$customercompleted}'";
+         $result5=mysqli_query($con,$query5);
          
-         mysqli_close($con);?>
+         
+         $pendingorders=mysqli_fetch_array($result4);
+         $completedorders=mysqli_fetch_array($result5);
+         ?>
          
          
          <div class="container">
@@ -87,20 +100,25 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
 </div>
 </div>
 
-<div class="container order" style="display:none">
+<div class="container order" style="display:block">
+<?php while($neworders=mysqli_fetch_array($result3)){?>
 <div class="row">
-  <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
+  <?php 
+  
+  $serviceid=$neworders['serviceid'];
+  $query10 = "SELECT * FROM $tbl2 WHERE id LIKE '%{$serviceid}'";
+  $result10=mysqli_query($con,$query10);
+  $row10=mysqli_fetch_array($result10);
+  $servicetitle=$row10['title'];
+  ?>
+
+  <div class="col-lg-6"><h4>You have received a new order for the service titled '<?php echo $servicetitle;?>'</h4></div>
   <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Accept</button> <button class="btn btn-warning">Decline</button></div>
 </div>
 <hr>
-<div class="row">
-  <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
-  <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Accept</button> <button class="btn btn-warning">Decline</button></div>
+<?php } ;?> 
 </div>
 
-<button style="float:right; margin: 20px;" class="btn btn-info">View all</button>
-
-</div>
 <!-- pending -->
 <div class="container pending" style="display:none">
 
