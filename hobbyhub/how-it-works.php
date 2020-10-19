@@ -28,7 +28,7 @@
 <body>
     <?php include('header.php');?>
 
-    <h1 class="text-center mt-5"><a href="">About Us</a></h1>
+    <h1 class="text-center mt-5"><a href="">How it works</a></h1>
 
     <div class="post-content jumbotron">
 							<h3 style="text-align: center"><i>Micro Job Marketplace: </i><b>Browse &#8211; Buy &#8211; Done</b></h3>

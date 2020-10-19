@@ -44,11 +44,11 @@
 						</h2><!-- end title -->
 						<div class="post-content">
 							
-<p>MAKING EARNING THROUGH YOUR HOBBY EASIER EACH DAY</p>
+<h2>MAKING EARNING THROUGH YOUR HOBBY EASIER EACH DAY</h2>
 
 
 
-<p>HOW WE CONNECT?</p>
+<h4>HOW WE CONNECT?</h4>
 
 
 
@@ -60,7 +60,7 @@
 
 
 
-<p>WHO ARE WE?</p>
+<h4>WHO ARE WE?</h4>
 
 
 
@@ -76,7 +76,7 @@
 
 
 
-<p>WHERE DID IT BEGIN?</p>
+<h4>WHERE DID IT BEGIN?</h4>
 
 
 
