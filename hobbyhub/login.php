@@ -1,6 +1,6 @@
 <?php
 include("connect.php");
-$dbconnect=mysqli_select_db($connect,"$db_name")or die("cannot select DB");
+$dbconnect=mysqli_select_db($connect,"$dbname")or die("cannot select DB");
 $tbl1="users";
 $email=$_POST["email"];
 $pass=$_POST["pass"];

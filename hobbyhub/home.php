@@ -296,12 +296,12 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
 <div class="container">
 <div class="row mt-2">
 <div class="col-lg-2">
-<button id="work" class="btn btn-block btn-outline-warning">New Orders <span class="badge badge-danger">4</span></button>
+<button id="work" class="btn btn-block btn-outline-warning">New Orders <span class="badge badge-danger"></span></button>
 
 </div> 
 
 <div class="col-lg-2">
-  <button id="pend" class="btn btn-block btn-outline-warning">Pending Orders<span class="badge badge-danger">4</span></button>
+  <button id="pend" class="btn btn-block btn-outline-warning">Pending Orders<span class="badge badge-danger"></span></button>
   
   </div>
 
@@ -325,17 +325,32 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
 </div>
 
 <div class="container order">
-<div class="row">
+<?php 
+include("connection.php");
+$tbl2="services";
+$notcomplete=0;
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+
+$query2 = "SELECT * FROM $tbl2 WHERE servicestatus LIKE '%{$notcomplete}'";
+
+$result2=mysqli_query($conn,$query2);
+
+
+
+while($row2=mysqli_fetch_array($result)){?><div class="row">
   <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
   <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Accept</button> <button class="btn btn-warning">Decline</button></div>
 </div>
 <hr>
-<div class="row">
-  <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
-  <div class="col-lg-6"><button class="btn btn-info">View</button> <button class="btn btn-primary">Accept</button> <button class="btn btn-warning">Decline</button></div>
-</div>
 
-<button style="float:right; margin: 20px;" class="btn btn-info">View all</button>
+
+<?php } ;
+mysqli_close($conn);?>
 
 </div>
 <!-- pending -->
@@ -363,11 +378,8 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true && $_SESSION['
     <div class="col-lg-6"><h4 >123$</h4></div>
   </div>
   <hr>
-  <div class="row">
-    <div class="col-lg-6"><h4>You recieves a new order for illustration</h4></div>
-    <div class="col-lg-6"><h4>200$</h4></div>
-  </div>
-  <button style="float:right; margin: 20px;" class="btn btn-info">View all</button>
+  
+  
 
 
 </div>
