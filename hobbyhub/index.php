@@ -83,17 +83,35 @@ else {
     </div>
     <h1 class="bigHeading">Featured Freelancers</h1>
 
-    <div class="main_box">
-      <div class="row">
-       <div class="col-sm-6 col-lg-3 box"></div>
-       <div class="col-sm-6 col-lg-3 box"></div>
-       <div class="col-sm-6 col-lg-3 box"></div>
-       <div class="col-sm-6 col-lg-3 box"></div>
-       <div class="col-sm-6 col-lg-3 box"></div>
-       <div class="col-sm-6 col-lg-3 box"></div>
-      </div>
-      <button id="browse" class="btn btn-warning ">Browse more</button>
+    <div style="margin:auto; padding:5%" class="main_box">
+    <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfPQDc8hLUPVKQjWNuCctUtKKTc8IW0sQSkw&usqp=CAU" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Name here</h5>
+      <p><small>Designer</small></p>
+     
     </div>
+  </div>
+  <div class="card">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfPQDc8hLUPVKQjWNuCctUtKKTc8IW0sQSkw&usqp=CAU" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Name here</h5>
+      <p><small>Designer</small></p>
+    </div>
+  </div>
+  <div class="card">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfPQDc8hLUPVKQjWNuCctUtKKTc8IW0sQSkw&usqp=CAU" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Name here</h5>
+      <p><small>Designer</small></p>
+     
+    </div>
+  </div>
+
+</div>
+      <button id="browse" class="btn btn-warning ">Browse more</button>
+    <
     <h1 class="bigHeading">Popular services</h1>
 
     <div class="main_box">
