@@ -61,7 +61,16 @@
       <form class="container" method="POST" action="newfreelancer.php">
         <h1 style="text-align: center;">Freelancer</h1>
         <div class="form-group">
-          
+        <div class="form-row">
+    <div class="col">
+    <label for="exampleInputEmail1"><b>First Name</b></label>
+      <input type="email" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+    <label for="exampleInputEmail1"><b>Last Name</b></label>
+      <input type="email" class="form-control" placeholder="Last name">
+    </div>
+  </div>
           <label for="exampleInputEmail1"><b>Email address</b></label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
         </div>
@@ -94,7 +103,22 @@
     <form class="contaier" method="POST" action="newfreelancer.php">
     <div class="form-group">
           <h1 style="text-align: center;">Hire Freelancer</h1>
+          <div class="form-row">
+    <div class="col">
+    <label for="exampleInputEmail1"><b>First Name</b></label>
+      <input type="email" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+    <label for="exampleInputEmail1"><b>Last Name</b></label>
+      <input type="email" class="form-control" placeholder="Last name">
+    </div>
+  </div>
       <label for="exampleInputEmail1"><b>Email address</b></label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      
+      <label for="exampleInputEmail1"><b>Address</b></label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     </div>
     <div class="form-group">
