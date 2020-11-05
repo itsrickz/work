@@ -41,9 +41,9 @@ else {
                 <div class="form-row align-items-center">
                   <div class="col-auto">
                       <select id="location" name="location" class="form-control mb-2">
-                        <option value="any">Location</option>
-                        <option value="any">PAN India</option>
-                        <option value="Guwahati">Guwahati</option>
+                        <option value="ghy">Location</option>
+                        <option value="pan">PAN India</option>
+                        <option value="ghy">Guwahati</option>
                         
                       </select>
                   </div>
@@ -55,7 +55,7 @@ else {
                         <option value="bakery">Bakery</option>
                         <option value="fashion">Fashion</option>
                         <option value="photography">Photography</option>
-                        <option value="make_up_artist">Make Up Artist</option>
+                        <option value="make-up-artist">Make Up Artist</option>
                         <option value="gift_makers">Gift Makers</option>
                       </select>
                     </div>
@@ -68,7 +68,7 @@ else {
                         <option value="fashion">Fashion</option>
                         <option value="photography">Photography</option>
                         <option value="make_up_artist">Make Up Artist</option>
-                        <option value="gift_makers">Gift Makers</option>
+                        <option value="gift-makers">Gift Makers</option>
                         
                       </select>
                   </div>
@@ -250,12 +250,26 @@ $(document).ready(function () {
         else if (val == "photography") {
             $("#subcategory").html("<option value='photo editing'>Photo editing</option><option value='videography'>videography</option><option value='video editing'>Video editing</option><option value='photography'>photography</option><option value=''>any</option>");
         }
-        else if (val == "make_up_artist" || val=="gift_makers") {
+        else if (val == "make-up-artist" || val=="gift-makers") {
             $("#subcategory").html("<option value=''></option>");
         }
     });
 });
+// Pan india delivery
+$(document).ready(function(){
+$("#location").change(function(){
+var loc=$(this).val();
+if(loc=="pan"){
+  $("#category").html("<option>category</option><option>art</option><option>crafts</option><option>fashion</option><option>gift-makers</option>")
+}else if(loc=="ghy"){
+  $("#category").html("<option>category</option><option>art</option><option>crafts</option><option>fashion</option><option>gift-makers</option><option>bakery</option><option>make-up-artist</option><option>photography</option>")
+}
 
+
+})
+
+  
+})
 
 
 // end
