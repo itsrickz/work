@@ -54,6 +54,7 @@ else {
                         <option value="crafts">Crafts</option>
                         <option value="bakery">Bakery</option>
                         <option value="fashion">Fashion</option>
+                        <option value="Food-Service">Food Service</option>
                         <option value="photography">Photography</option>
                         <option value="make-up-artist">Make Up Artist</option>
                         <option value="gift_makers">Gift Makers</option>
@@ -239,7 +240,7 @@ $(document).ready(function () {
             $("#subcategory").html("<option value='illustration'>illustration</option><option value='portraitart'>Portrait art</option><option value='caricature'>Caricacature</option><option value='mandala'>Mandala</option><option value='line-art'>Line art</option><option value='sketching'>sketching</option><option value='calligraphy'>Calligraphy</option><option value='painting'>painting</option><option value='mix-media'>mix media</option><option value='ethnic art'>Ethnic art</option><option value='contemporary art'>contemporary art</option><option value='doodle'>Doodle</option><option value='grafitti'>Grafitti</option><option value=''>any</option>");
         } else if (val == "crafts") {
             $("#subcategory").html("<option value='print making'>Print making</option><option value='ceramic art'>Ceramic art</option><option value='home decoration'>Home decoration</option><option value='macrame'>macrame</option><option value='pottery'>Pottery</option><option value='bambooandcrane'>Bamboo and Crane</option><option value=''>any</option>");
-        } else if (val == "foodservices") {
+        } else if (val == "Food-Service") {
             $("#subcategory").html("<option value='indian'>indian</option><option value='chinese'>chinese</option><option value='southindian'>south indian</option><option value='continental'>continental</option><option value='italian'>italian</option><option value='icecream'>ice cream</option><option value='sweets'>sweets</option><option value=''>any</option>");
         } else if (val == "bakery") {
             $("#subcategory").html("<option value='cakes'>cakes</option><option value='cookies'>cookies</option><option value='dougnut'>Dougnut</option><option value='pies-cupcakes'>pies cupcakes</option><option value=''>any</option>");
@@ -262,7 +263,7 @@ var loc=$(this).val();
 if(loc=="pan"){
   $("#category").html("<option>category</option><option>art</option><option>crafts</option><option>fashion</option><option>gift-makers</option>")
 }else if(loc=="ghy"){
-  $("#category").html("<option>category</option><option>art</option><option>crafts</option><option>fashion</option><option>gift-makers</option><option>bakery</option><option>make-up-artist</option><option>photography</option>")
+  $("#category").html("<option>category</option><option>art</option><option>crafts</option><option>Food-Service</option><option>fashion</option><option>gift-makers</option><option>bakery</option><option>make-up-artist</option><option>photography</option>")
 }
 
 
