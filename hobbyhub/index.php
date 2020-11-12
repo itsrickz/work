@@ -15,7 +15,7 @@ else {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HobbyHub</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -29,6 +29,8 @@ else {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/bootstrap.min.css">    
 <link rel="stylesheet" href="homestyle.css">
+<link rel="stylesheet" href="serv.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -137,11 +139,19 @@ else {
 <div class="container">
 <div class="row ">
   <div class="col-lg-6 abt_content">
-    <p class="but">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
-    quis nostrum exercitationem ullam corporis suscipit laboriosam,
-     nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
-     qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  </p></div>
+    <p class="but"><p>HobbyHub is a Guwahati based startup which makes the process of freelancing and consigning easier than before.</p>
+
+
+
+<p>We have huge number of freelancers from the town and different parts of the country as well who are searching for customers to get their work done</p>
+
+
+
+<p>OUR VISION &#8211; &#8220;To Make the dream of earning through hobby a reality&#8221;<br>OUR MISSION-&#8220;To provide our customers with the best services and the freelancers with daily clients&#8221;</p>
+
+
+
+  </p> <a href="aboutus.php">Read more</a></div>
      <div class="col-lg-6 abt_content">
        <div class="imageBox"></div>
 </div>
@@ -149,32 +159,32 @@ else {
     <!-- services -->
     <h1 style="text-align: center; margin:10% 0 5% 0">Services</h1>
 
-    <div class="container" >
+    <div  style="text-align: ; margin:10% 0 5% 0" class="container " >
           <div class="row" >
-              <div class="col-lg-3 ser  " style="background-color:white"><div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesart.php"><i class="fas fa-palette"></a></i><h5>Art</h5>
+              <div class="col-lg-3 ser  " style="background-color:white"><div class="container" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesart.php"><i class="fas fa-palette"></a></i><h5>Art</h5>
 
 </div></div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicescraft.php"><i class="fab fa-firstdraft"></i></a>
+              <div class="container" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicescraft.php"><i class="fab fa-firstdraft"></i></a>
 
 <h5>Craft</h5>
 
 </div>
             </div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesfood.php"><i class="fas fa-utensils"></i></a>
+              <div class="container" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesfood.php"><i class="fas fa-utensils"></i></a>
 
 <h5>Food</h5>
 
 </div></div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesbakery.php"><i class="fas fa-birthday-cake"></i></a>
+              <div class="container" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesbakery.php"><i class="fas fa-birthday-cake"></i></a>
 
 <h5>Bakery</h5>
 
 </div></div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesfashion.php"><i class="fas fa-tshirt"></i></a>
+              <div class="container" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesfashion.php"><i class="fas fa-tshirt"></i></a>
 
 
 
@@ -182,35 +192,61 @@ else {
 
 </div></div>
               <div class="col-lg-3 ser  "  style="background-color:white">
-              <div class="cotainer" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesphotography.php"><i class="fas fa-camera-retro"></i></a>
+              <div class="container" style="font-size:7vw;text-align:center;color:#ED9D2B;"><a href="servicesphotography.php"><i class="fas fa-camera-retro"></i></a>
 
 <h5>Photography</h5>
 
 </div></div>
           </div>
       </div>
-    <!-- testimonials -->
-    <h1 style="text-align: center; margin:10% 0 5% 0">testimonials</h1>
+    <!-- freelancers testimonials -->
+    <h1 style="text-align: center; margin:10% 0 5% 0"> Freelancers testimonials</h1>
     <div id="carouselExample" class="carousel slide testi" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
          
-          <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
+          <h5>Hobbyhub has been an overwhelming platform for me. Got to know about it from a friend who ordered from various freelancers and ever since I have joined, I meet new customers and freelancers everyday
+- <small>Neha Kamati</small> </h5>
         </div>
         <div class="carousel-item">
-          <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
+          <h5> I started selling my cakes since the lockdown and then I came across HobbyHub's Instagram page, and signed up for free. I started receiving orders and what amazes me is they have no registration charge. If you're a freelancer I guess this is where you should register yourself to be seen <small>- Saloni Binnani</small></h5>
 
         </div>
-        <div class="carousel-item">
-          <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
-
-        </div>
+       
       </div>
       <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- customer testimonials -->
+    <h1 style="text-align: center; margin:10% 0 5% 0"> Customers testimonials</h1>
+    <div id="carouselExample1" class="carousel slide testi" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         
+          <h5> I was searching for some gift makers in town for my mom's birthday and then someone suggested me about this website and the range of options they provide for us to check out and choose the best is an amazing feature.</h5>
+- <small>- Muskaan Shankala</small> </h5>
+        </div>
+        <div class="carousel-item">
+<h5> The range of options they provide us for a single category is great. From clothes to food to paintings to gifts and the advance payment is the least I have seen till date. They have been so comforting since I don't need to keep on searching for Freelancers or asking people again and again.</h5>
+<small>- Diviyaj Mittal</small>
+        </div>
+        <div class="carousel-item">
+        <h5>I have been ordering from various freelancers in the website not just within the town but from different places and the process is so smooth. From choosing the best option to going through the gallery and paying a minimum amount.  It is an awesome experience</h5>
+<small>- Pulkit Periwal</small>
+        </div>
+       
+      </div>
+      <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
